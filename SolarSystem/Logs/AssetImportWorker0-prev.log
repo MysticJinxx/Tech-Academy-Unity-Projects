@@ -1,0 +1,423 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.28f1 (232e59c3f087) revision 2305625'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 24523 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/disho/OneDrive/Desktop/Unity-C#-Scripting-Fundamentals/SolarSystem
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60866
+Successfully changed project path to: C:/Users/disho/OneDrive/Desktop/Unity-C#-Scripting-Fundamentals/SolarSystem
+C:/Users/disho/OneDrive/Desktop/Unity-C#-Scripting-Fundamentals/SolarSystem
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27628] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 2291341172 [EditorId] 2291341172 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SSPHFRO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27628] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 2291341172 [EditorId] 2291341172 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SSPHFRO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 107.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.28f1 (232e59c3f087)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/disho/OneDrive/Desktop/Unity-C#-Scripting-Fundamentals/SolarSystem/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4074 MB
+    Driver:   31.0.14057.2005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015761 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 109.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.062 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1063ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (715ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (163ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010944 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\disho\OneDrive\Desktop\Unity-C#-Scripting-Fundamentals\SolarSystem\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\disho\OneDrive\Desktop\Unity-C#-Scripting-Fundamentals\SolarSystem\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.599 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1600ms)
+		BeginReloadAssembly (249ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1175ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (393ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (338ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.7 KB). Loaded Objects now: 3513.
+Memory consumption went from 108.4 MB to 108.4 MB.
+Total: 3.670800 ms (FindLiveObjects: 0.339600 ms CreateObjectMapping: 0.097600 ms MarkObjects: 3.135400 ms  DeleteObjects: 0.096700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 407452.780878 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.018492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.844734 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(3a7b24d373c0c384996566eb7bffc699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(3a7b24d373c0c384996566eb7bffc699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3604d86e70dfccf6a3e5e21a01d81d79') in 0.021042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.083181 seconds.
+  path: Assets/Materials/Sun.mat
+  artifactKey: Guid(82c097dd66932e547a0787e20a9ee804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sun.mat using Guid(82c097dd66932e547a0787e20a9ee804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1faa34cdd2b8cdb203800c9dc1933ff') in 0.319142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.188909 seconds.
+  path: Assets/Materials/Sun 1.mat
+  artifactKey: Guid(420df482e84b03742b250c11503e8122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sun 1.mat using Guid(420df482e84b03742b250c11503e8122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2071c68f5ca5a7b8d5882d0b08f2466b') in 0.026529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.196680 seconds.
+  path: Assets/Materials/Sun 2.mat
+  artifactKey: Guid(605c1c6fa9c1a15498119c66df2463dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sun 2.mat using Guid(605c1c6fa9c1a15498119c66df2463dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7022a033bd6204670ebf9bc5be66580') in 0.018115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.760224 seconds.
+  path: Assets/Materials/Sun 3.mat
+  artifactKey: Guid(c5c43119347b5374f9dac99505725aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sun 3.mat using Guid(c5c43119347b5374f9dac99505725aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edcac7f55f13200daa6d3f08af9aa71') in 0.024109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.691005 seconds.
+  path: Assets/Materials/Sun 4.mat
+  artifactKey: Guid(71e420e59c78f5941b92db81a0c7aff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sun 4.mat using Guid(71e420e59c78f5941b92db81a0c7aff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7748b15ac6dded00854cd1add9979108') in 0.023972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.509599 seconds.
+  path: Assets/Materials/Sun 5.mat
+  artifactKey: Guid(4182308aaa22cdd46b5405f1cf1f1eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sun 5.mat using Guid(4182308aaa22cdd46b5405f1cf1f1eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1134fd59b61ca76c2f47307ff0384ce') in 0.027757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.875406 seconds.
+  path: Assets/Materials/Sun 6.mat
+  artifactKey: Guid(5890ee1a1787ac943989955a956da9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sun 6.mat using Guid(5890ee1a1787ac943989955a956da9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007bed45123b5832c4aefd2d45bf9bc0') in 0.018168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.377111 seconds.
+  path: Assets/Materials/Sun 7.mat
+  artifactKey: Guid(0ee29ba9c3df634429c6a01f1ac11217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sun 7.mat using Guid(0ee29ba9c3df634429c6a01f1ac11217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f019b30823ff6c7758001dc5884c2ad6') in 0.041999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.377679 seconds.
+  path: Assets/Materials/Sun 8.mat
+  artifactKey: Guid(5980e23db2f75494682efa2dfc65cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sun 8.mat using Guid(5980e23db2f75494682efa2dfc65cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a679f9ca278cd38c3d74215bca30a7b') in 0.027497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.857431 seconds.
+  path: Assets/Materials/Mercury.mat
+  artifactKey: Guid(420df482e84b03742b250c11503e8122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mercury.mat using Guid(420df482e84b03742b250c11503e8122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2596530bb5bfc788d7dd6b5dc45d3679') in 0.256363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.941562 seconds.
+  path: Assets/Materials/Venus.mat
+  artifactKey: Guid(605c1c6fa9c1a15498119c66df2463dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Venus.mat using Guid(605c1c6fa9c1a15498119c66df2463dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb8b720259f06d9a7827adc1bd90657') in 0.019704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.677798 seconds.
+  path: Assets/Materials/Earth.mat
+  artifactKey: Guid(c5c43119347b5374f9dac99505725aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Earth.mat using Guid(c5c43119347b5374f9dac99505725aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df095201eeb310554f8c78aa42353001') in 0.314614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.712388 seconds.
+  path: Assets/Materials/Mars.mat
+  artifactKey: Guid(71e420e59c78f5941b92db81a0c7aff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mars.mat using Guid(71e420e59c78f5941b92db81a0c7aff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2db17b39a44f5450d0b9f60dfcc488') in 0.018981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.102532 seconds.
+  path: Assets/Materials/Jupiter.mat
+  artifactKey: Guid(4182308aaa22cdd46b5405f1cf1f1eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jupiter.mat using Guid(4182308aaa22cdd46b5405f1cf1f1eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87737dba6908baf7d4288dacb3a62b6') in 0.024743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.878757 seconds.
+  path: Assets/Materials/Saturn.mat
+  artifactKey: Guid(5890ee1a1787ac943989955a956da9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Saturn.mat using Guid(5890ee1a1787ac943989955a956da9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9444305e342ab2c502e5db5325d1c47') in 0.020424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.142926 seconds.
+  path: Assets/Materials/Uranus.mat
+  artifactKey: Guid(0ee29ba9c3df634429c6a01f1ac11217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Uranus.mat using Guid(0ee29ba9c3df634429c6a01f1ac11217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83f1b255c3ef2b1ca0e8be372cb2220') in 0.016607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.047012 seconds.
+  path: Assets/Materials/Neptune.mat
+  artifactKey: Guid(5980e23db2f75494682efa2dfc65cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Neptune.mat using Guid(5980e23db2f75494682efa2dfc65cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f0cce6fdd65d249adb3150c08f5ca3') in 0.022277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.810848 seconds.
+  path: Assets/Materials/Venus 1.mat
+  artifactKey: Guid(870ba7251f42e2442935b444808991a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Venus 1.mat using Guid(870ba7251f42e2442935b444808991a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef2d8151ed720493bc804ec42309743') in 0.019233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.572988 seconds.
+  path: Assets/Materials/Pluto.mat
+  artifactKey: Guid(870ba7251f42e2442935b444808991a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pluto.mat using Guid(870ba7251f42e2442935b444808991a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03fb8a3a940ab37c462abc9b20a7006') in 0.018250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.926989 seconds.
+  path: Assets/Materials/Moon.mat
+  artifactKey: Guid(605c1c6fa9c1a15498119c66df2463dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Moon.mat using Guid(605c1c6fa9c1a15498119c66df2463dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44cfb0e8adf0c4cd3b3bcd73b1b769b') in 0.016943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.306426 seconds.
+  path: Assets/Materials/Uranus 1.mat
+  artifactKey: Guid(4cb09697ce123264eb3112f8c6b03dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Uranus 1.mat using Guid(4cb09697ce123264eb3112f8c6b03dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0797e106fe989926d9a7f30bf492a8') in 0.017877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.797622 seconds.
+  path: Assets/Materials/Venus.mat
+  artifactKey: Guid(4cb09697ce123264eb3112f8c6b03dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Venus.mat using Guid(4cb09697ce123264eb3112f8c6b03dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febbbf0d75f7a87a7135f33c4180e129') in 0.015982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.488765 seconds.
+  path: Assets/Textures/sun.jpg
+  artifactKey: Guid(a9a0807d4c7303d498a0822b4bfe3085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/sun.jpg using Guid(a9a0807d4c7303d498a0822b4bfe3085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125039844ed14abf1d5197a08934548a') in 0.077413 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021345 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\disho\OneDrive\Desktop\Unity-C#-Scripting-Fundamentals\SolarSystem\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\disho\OneDrive\Desktop\Unity-C#-Scripting-Fundamentals\SolarSystem\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.781 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1782ms)
+		BeginReloadAssembly (292ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1283ms)
+			LoadAssemblies (203ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (413ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (548ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (350ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (2.0 MB). Loaded Objects now: 3916.
+Memory consumption went from 128.3 MB to 126.3 MB.
+Total: 5.937800 ms (FindLiveObjects: 0.366600 ms CreateObjectMapping: 0.135200 ms MarkObjects: 4.169900 ms  DeleteObjects: 1.264500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 795.519933 seconds.
+  path: Assets/Textures/Earth.jpg
+  artifactKey: Guid(0d43005e55e98df4bae11e667b096e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Earth.jpg using Guid(0d43005e55e98df4bae11e667b096e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6a43adb6cf04175d449f13606aa1d1') in 0.124978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Textures/pluto.jpg
+  artifactKey: Guid(4f8cb5ff0fdbfdd4ab23401e0dc01382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/pluto.jpg using Guid(4f8cb5ff0fdbfdd4ab23401e0dc01382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33404effe8a2fd663e5eb050241ea1d8') in 0.032525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Textures/mars.jpg
+  artifactKey: Guid(c221a9e497d21cd45978275e430ad596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/mars.jpg using Guid(c221a9e497d21cd45978275e430ad596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8701739950d60c1c124820a358b27f76') in 0.032209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures/moon.jpg
+  artifactKey: Guid(6c3afa3d9de57734fa965788a4afb87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/moon.jpg using Guid(6c3afa3d9de57734fa965788a4afb87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105d9b3673dbfca0ae32400d8adf278f') in 0.029732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Textures/uranus.jpg
+  artifactKey: Guid(0acca198ffacdb140a27332def0d1d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/uranus.jpg using Guid(0acca198ffacdb140a27332def0d1d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf780332e63a53e0b87a87b5e218ffb') in 0.023997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/venus.jpg
+  artifactKey: Guid(9856d81a3fafe994fa458d6352f402df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/venus.jpg using Guid(9856d81a3fafe994fa458d6352f402df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f950e660a072d8be4f0be4773d928d') in 0.023376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/neptune.jpg
+  artifactKey: Guid(4ee56f8e60ed6a149b0c97ba1261f9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/neptune.jpg using Guid(4ee56f8e60ed6a149b0c97ba1261f9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c0b9a12ae2cd10d2433d8006db17c7') in 0.037281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Textures/Mercury.jpg
+  artifactKey: Guid(03e1c85c976c89345819817adc2d0491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Mercury.jpg using Guid(03e1c85c976c89345819817adc2d0491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fb794b140cc4cfbb82e14a517589d6') in 0.025346 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
